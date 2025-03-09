@@ -1,4 +1,3 @@
-import UIKit
 import Combine
 
 let publisher = Just("Hello World")
