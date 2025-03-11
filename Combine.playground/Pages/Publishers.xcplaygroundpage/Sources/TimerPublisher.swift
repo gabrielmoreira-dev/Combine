@@ -1,7 +1,7 @@
 import Combine
 import Foundation
 
-public final class TimerPublisherExample {
+public final class TimerPublisher {
     public static func execute() {
         let publisher = Timer.publish(every: 1, on: .main, in: .common)
         let subscription = publisher.autoconnect().sink { print($0) }

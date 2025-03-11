@@ -1,3 +1,3 @@
-JustPublisherExample.execute()
-SequencePublisherExample.execute()
-TimerPublisherExample.execute()
+JustPublisher.execute()
+SequencePublisher.execute()
+TimerPublisher.execute()

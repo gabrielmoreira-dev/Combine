@@ -4,7 +4,7 @@ enum PublisherError: Error {
     case operationError
 }
 
-public final class SequencePublisherExample {
+public final class SequencePublisher {
     public static func execute() {
         let publisher = [1, 2, 3, 4].publisher
         let publisher2 = publisher
