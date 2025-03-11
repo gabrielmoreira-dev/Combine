@@ -17,7 +17,7 @@ public final class FilteringOperators {
     public static func executeDebounce() {
         let publisher = PassthroughSubject<String, Never>()
         let debouncePublisher = publisher.debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
-        let _ = debouncePublisher.sink { print($0) }
+        let subscription = debouncePublisher.sink { print($0) }
         publisher.send("A")
         publisher.send("B")
         publisher.send("C")
