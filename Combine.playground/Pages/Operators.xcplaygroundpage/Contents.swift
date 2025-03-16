@@ -9,3 +9,7 @@ FilteringOperators.executeDebounce()
 CombiningOperators.executeCombineLatest()
 CombiningOperators.executeZip()
 CombiningOperators.executeSwitchToLatest()
+
+ErrorHandlingOperators.executeCatch()
+ErrorHandlingOperators.executeReplaceError()
+ErrorHandlingOperators.executeRetry()
